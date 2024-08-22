@@ -1,0 +1,97 @@
+.Login-container{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000090;
+    background-size: cover;
+}
+.Form-Login{
+    border: none;
+    min-width: 300px;
+    padding: 15px 50px;
+    background-color: white;
+    border-radius: 10px;
+    animation: fadeIn 0.5s;
+}
+.Form-Signinpage {
+    width: 300px;
+}
+.Login-top{
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+.Login-top h2{
+    float: left;
+    font-size: 25px;
+}
+.Login-top span i{
+    font-size: 28px;
+}
+.form-Field{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+.form-Field label{
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.form-Field input{
+    font-size: 17px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #c9c9c9;
+    font-weight: 600;
+    padding: 8px;
+    padding-left: 10px;
+}
+.form-terms{
+    width: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    margin-top: 10px;
+    gap: 8px;
+}
+.form-terms input{
+    margin-top: 6px;
+}
+.form-acc{
+    text-align: center;
+}
+.form-Field-btn {
+    width: 100%;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    height: 38px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.form-Field input::placeholder{
+    font-size: 15px;
+    font-weight: normal;
+}
+.form-Field span{
+    color: #e74c3c;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+    display: block;
+}
+.Form-signup{
+    display: flex;
+}
+.form-btm{
+    min-width: 90%;
+}
+.form-privacy{
+    width: 260px;
+}

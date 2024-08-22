@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.EPrdview{
+    width: 100%;
+    min-height: 80vh;
+    padding: 15px 100px;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s ease-in-out ;
+}
+.EPrdlist h1{
+    font-size: 28px;
+    color:black;
+    text-shadow: 2px 5px 6px rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+}
+.Viewcol_1{
+    border: 1px solid black;
+    width: 500px;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Viewcol_2{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+.Viewcol_1 img{
+    width: 400px;
+    height: 500px;
+}
+
+.EPrdcard{
+    padding: 6px;
+    width: 245px;
+    height: 365px;
+    margin: 20px 20px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    /* box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.3),
+    inset 4px 4px 10px white; */
+    overflow: hidden;
+    transition: .2s;
+    border: none;
+}
+.EPrdcard:hover{
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3),
+    inset -4px -4px 10px white;
+    transition: .2s;
+}
+.Eprdviewimg{
+    width: 230px;
+    height: 240px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.EprdBody {
+    width: 225px;
+    height: 108px;
+}
+.EprdTitle h4{
+    margin-top: 6px;
+    font-size: 16px;
+    height: 60px;
+    overflow: hidden;
+}
+.Eprdprice h5{
+    font-size: 14px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.Eprdprice span{
+    color: red;
+}
+.FCbotm {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.ECButn{
+    float: right;
+    width: 90px;
+    height: 30px;
+    padding: 0;
+    border-radius: 20px;
+    color: rgb(34, 34, 34);
+    font-weight: 600;
+    font-size: 13px;
+}
+.ECButn:hover{
+    background-color: white;
+    color: orange;
+    border: 1px solid goldenrod ;
+}
+.FCbotm div{
+    border: none;
+    width: 110px;
+    height: 45px;
+}
+.FpriceRating{
+    margin: 0;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.FpriceRat{
+    float: left;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+.FButn{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.FpriceRat .checked{
+    color: orange;
+}

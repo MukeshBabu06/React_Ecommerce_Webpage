@@ -1,0 +1,22 @@
+.EClink{
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+.EClink span{
+    position: absolute;
+    top: -4px;
+    right: -6px;
+    border: 1px solid black;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    font-size: 13px;
+
+}

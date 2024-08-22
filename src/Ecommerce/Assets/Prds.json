@@ -1,0 +1,21 @@
+[  
+    {"id":1,
+     "pic": "https://printzwear.com/wp-content/uploads/2024/02/black-color-born-to-rock-printed-t-shirt-on-a-hanger.png",
+     "name":"Product 1",
+     "price":219},
+     {"id":2,
+     "pic":"https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/m/e/x/m-st-1369-smartees-original-imagtyhxy5jzumcz.jpeg?q=70&crop=false", 
+     "name":"F.R.I.E.N.D.S How You",
+     "price":249},
+    {"id":3,
+    "pic":"https://assets.ajio.com/medias/sys_master/root/20240503/378w/663414e305ac7d77bb3ac387/-1117Wx1400H-467297283-grey-MODEL.jpg", 
+    "name":"Product 3",
+    "price":279},
+    {"id":4,
+    "pic":"https://assets.ajio.com/medias/sys_master/root/20240605/28vC/665f950105ac7d77bb9e5eba/-473Wx593H-700044893-black-MODEL.jpg", 
+    "name":"Product 3","price":299},
+    {"id":5,
+    "pic":"https://m.media-amazon.com/images/I/51ktt+O7m3L._SY741_.jpg", "name":"Product 3",
+    "price":329}
+
+] 
